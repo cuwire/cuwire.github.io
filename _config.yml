@@ -5,10 +5,10 @@ email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Better microcontroller IDE.
   Available for Mac, Windows and Linux.
-baseurl: "/cuwire"
+#baseurl: "/cuwire"
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: "http://apla.github.io"
+url: "http://cuwire.io"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -68,5 +68,5 @@ exclude:
     - vendor
 
 username: apla
-repo: https://github.com/apla/cuwire
-branch: gh-pages
+repo: https://github.com/cuwire/cuwire.github.io
+branch: master
