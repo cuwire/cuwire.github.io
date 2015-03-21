@@ -31,9 +31,10 @@ safe: true
 footer-links:
   dribbble:
   email:
-  facebook:
+  facebook: groups/cuwire
+  googleplus: communities/103028218149047906514
   flickr:
-  github: apla
+  github: cuwire
   instagram:
   linkedin:
   pinterest:
@@ -42,7 +43,7 @@ footer-links:
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
 
 # Your disqus shortname, entering this will enable commenting on posts
-disqus:
+disqus: cuwire
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-59158239-1
