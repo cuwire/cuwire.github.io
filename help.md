@@ -8,9 +8,9 @@ permalink: /help/
 
 ## Join the conversation
 
-Write comment at bottom on every page on [cuwire.io](http://cuwire.io).
+Write a comment at the bottom of any page on [cuwire.io](http://cuwire.io).
 
-A communities to ask questions and get answers from other people who use Facebook or Google Plus:
+Communities to ask questions and get answers from other people on Facebook or Google Plus:
 
 <a href="http://facebook.com/{{ site.footer-links.facebook }}"><i class="fa fa-facebook-square fa-2x"></i> Facebook group</a>
 
@@ -18,7 +18,7 @@ A communities to ask questions and get answers from other people who use Faceboo
 
 ## Dig into the code
 
-Fill a bug or fix something yourself.
+Fill a bug or fix something yourself:
 
 <a href="https://github.com/apla/cuwire"><span class="fa-stack">
 <i class="fa fa-square fa-stack-2x"></i>
