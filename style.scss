@@ -55,6 +55,16 @@ h1 {
 	}
 }
 
+.key {
+	background-color: #F0F0F0;
+	border: 1px solid #B4B4B4;
+	border-radius: 4px;
+	// font-family: "Trebuchet MS",helvetica,sans-serif;
+	line-height: 1.8em;
+	padding: 0 4px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), 0 0 0 2px rgba(255, 255, 255, 0.7) inset;
+}
+
 .post h1 {
 	font-size: 60px;
 	letter-spacing: -.03em;
@@ -135,6 +145,8 @@ a.huge {
 	border: 1px solid gray;
 	padding: 20px;
 	border-radius: 5px;
+	background-color: #ff9933;
+	color: #333;
 }
 
 #home p.site-description {
@@ -290,7 +302,9 @@ img {
 }
 
 a.brackets {
-	padding-left: 30px;
+	padding-left: 35px;
+	line-height: 35px;
+	display: block;
 	background: url(assets/brackets.svg) 0% 100% / 2em auto no-repeat;
 }
 
