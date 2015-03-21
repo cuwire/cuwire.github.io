@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 0;
 
 	@include mobile {
-	line-height: 1.4;
+		line-height: 1.4;
 	}
 }
 
@@ -48,10 +48,10 @@ h1 {
 	font-size: 60px;
 	margin: 60px 0;
 	a {
-	color: $red;
-	&:hover {
-		color: $darkRed;
-	}
+		color: $red;
+		&:hover {
+			color: $darkRed;
+		}
 	}
 }
 
@@ -69,8 +69,8 @@ h1 {
 	height: 360px;
 	overflow: hidden;
 	@include mobile {
-	margin: 0 20px;
-	width: 300px;
+		margin: 0 20px;
+		width: 300px;
 	}
 }
 
@@ -87,15 +87,16 @@ h1.site-name {
 	font-size: 40px;
 	line-height: 42px;
 	font-weight: 700;
-	max-width: 600px;
+	max-width: 6em; // by letter count -)
 	margin-top: 10px;
 	margin-bottom: 20px;
 	letter-spacing: -.03em;
+	display: inline-block;
 	a {
-	color: $darkGray;
+		color: $darkGray;
 	}
 	@include mobile {
-	margin: 10px 20px 0;
+		margin: 10px 20px 0;
 	}
 }
 
@@ -143,7 +144,7 @@ a.huge {
 	// max-width: 310px;
 	// margin-bottom: 120px;
 	@include mobile {
-	margin: 30px 20px 10px 20px;
+		margin: 30px 20px 10px 20px;
 	}
 }
 #home .entry p {
@@ -155,7 +156,7 @@ a {
 	text-decoration: none;
 	cursor: pointer;
 	&:hover, &:active {
-	color: $darkRed;
+		color: $darkRed;
 	}
 }
 
@@ -238,7 +239,7 @@ img {
 	padding: 20px 0 0;
 	border-bottom: 1px solid $lightGray;
 	@include mobile {
-	text-align: center;
+		text-align: center;
 	}
 }
 
@@ -249,13 +250,13 @@ img {
 	margin-right: 15px;
 	margin-bottom: 15px;
 	@include mobile {
-	float: none;
-	display: block;
-	margin: 0 0 0 10px;
+		float: none;
+		display: block;
+		margin: 0 0 0 10px;
 	}
 
 	img {
-	border-radius: 26px;
+		border-radius: 26px;
 	}
 }
 
@@ -263,9 +264,9 @@ img {
 	float: left;
 
 	@include mobile {
-	float: none;
-	display: block;
-	margin: 0 auto;
+		float: none;
+		display: block;
+		margin: 0 auto;
 	}
 }
 
@@ -284,7 +285,7 @@ img {
 	font-family: $helveticaNeue;
 
 	@include mobile {
-	margin: 3px 0;
+		margin: 3px 0;
 	}
 }
 
@@ -301,18 +302,18 @@ header nav {
 
 
 	@include mobile {
-	float: none;
-	margin-top: 9px;
-	display: block;
+		float: none;
+		margin-top: 9px;
+		display: block;
 	}
 
 	a {
-	margin-left: 20px;
-	color: $gray;
-	// width: 225px;
-	display: block;
-	float: right;
-	line-height: 35px;
+		margin-left: 20px;
+		color: $gray;
+		// width: 225px;
+		display: block;
+		float: left;
+		line-height: 35px;
 
 		@include mobile {
 			display: inline-block;
@@ -330,7 +331,7 @@ header nav {
 		color: black;
 		// width: 225px;
 		display: block;
-		float: right;
+		float: left;
 		line-height: 35px;
 
 		@include mobile {
@@ -371,53 +372,53 @@ nav.wiki-breadcrumbs {
 
 article {
 	@include mobile {
-	margin: 0 20px;
+		margin: 0 20px;
 	}
 }
 
 .post {
 	blockquote {
-	margin: 1.8em .8em;
-	border-left: 1px dotted $gray;
-	padding: 0.1em 1em;
-	color: $gray;
+		margin: 1.8em .8em;
+		border-left: 1px dotted $gray;
+		padding: 0.1em 1em;
+		color: $gray;
 	}
 
 	.eyebrow {
-	font-size: 12px;
-	line-height: 30px;
-	color: $gray;
-	padding-top: 6px;
-	margin-bottom: 6px;
-	border-top: 1px solid $medGray;
+		font-size: 12px;
+		line-height: 30px;
+		color: $gray;
+		padding-top: 6px;
+		margin-bottom: 6px;
+		border-top: 1px solid $medGray;
 	}
 
 	.comments {
-	margin-top: 10px;
+		margin-top: 10px;
 	}
 
 	.small-link {
-	font-size: 11px;
-	color: $medGray;
-	display: block;
+		font-size: 11px;
+		color: $medGray;
+		display: block;
 		&:hover {
-		color: $red;
+			color: $red;
 		}
 	}
 	.large-link {
-	font-size: 20px;
-	color: $darkGray;
-	font-weight: 500;
+		font-size: 20px;
+		color: $darkGray;
+		font-weight: 500;
 	}
 	.primary-link {
-	color: #000;
-	font-size: 13px;
-	font-weight: 500;
+		color: #000;
+		font-size: 13px;
+		font-weight: 500;
 	}
 	.spacer {
-	padding-right: 8px;
-	margin-right: 8px;
-	border-right: 1px solid $lightGray;
+		padding-right: 8px;
+		margin-right: 8px;
+		border-right: 1px solid $lightGray;
 	}
 }
 
