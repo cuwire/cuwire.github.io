@@ -18,7 +18,7 @@ Communities to ask questions and get answers from other people on Facebook or Go
 
 ## Dig into the code
 
-Fill a bug or fix something yourself:
+File a bug or fix something yourself:
 
 <a href="https://github.com/apla/cuwire"><span class="fa-stack">
 <i class="fa fa-square fa-stack-2x"></i>
