@@ -48,5 +48,5 @@ Using this panel you can select target board to compile sketch and
 target port to upload firmware. Gear icon allow you to set custom location
 for Arduino IDE and some other params.
 
-You can see detailed guide at [GUI guide]({{ site.baseurl }}/gui/Usage)
-section of documentation
+You can see features showcase at [GUI Features]({{ site.baseurl }}/gui/Features)
+section of documentation.

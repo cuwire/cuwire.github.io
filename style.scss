@@ -98,7 +98,7 @@ h1.site-name {
 	line-height: 42px;
 	font-weight: 700;
 	max-width: 6em; // by letter count -)
-	margin-top: 10px;
+//	margin-top: 10px;
 	margin-bottom: 20px;
 	letter-spacing: -.03em;
 	display: inline-block;
@@ -106,7 +106,7 @@ h1.site-name {
 		color: $darkGray;
 	}
 	@include mobile {
-		margin: 10px 20px 0;
+		margin: 0 20px;
 	}
 }
 
@@ -142,11 +142,11 @@ a.huge {
 	font-weight: 600;
 	display: inline-block;
 	text-align: center;
-	border: 1px solid gray;
+	//border: 1px solid gray;
 	padding: 20px;
 	border-radius: 5px;
-	background-color: #ff9933;
-	color: #333;
+	background-color: #f57b00;
+	color: white;
 }
 
 #home p.site-description {
@@ -248,7 +248,7 @@ img {
 	min-height: 600px;
 }
 .masthead {
-	padding: 20px 0 0;
+	padding: 20px 0 10px;
 	border-bottom: 1px solid $lightGray;
 	@include mobile {
 		text-align: center;
@@ -261,11 +261,11 @@ img {
 	height: 50px;
 	margin-right: 15px;
 	margin-bottom: 15px;
-	@include mobile {
-		float: none;
-		display: block;
-		margin: 0 0 0 10px;
-	}
+//	@include mobile {
+//		float: none;
+//		display: block;
+//		margin: 0 0 0 10px;
+//	}
 
 	img {
 		border-radius: 26px;
@@ -305,14 +305,15 @@ a.brackets {
 	padding-left: 35px;
 	line-height: 35px;
 	display: block;
-	background: url(assets/brackets.svg) 0% 100% / 2em auto no-repeat;
+	background: url(assets/brackets.svg) 0% 5px / 32px auto no-repeat;
 }
 
 header nav {
 	float: right;
-	margin-top: 23px;
+//	margin-top: 23px;
 	font-family: $helveticaNeue;
 	font-size: 16px;
+	display: inline-block;
 
 
 	@include mobile {
@@ -340,13 +341,21 @@ header nav {
 	}
 
 
-	div {
+	div.github {
 		margin-left: 20px;
 		color: black;
 		// width: 225px;
 		display: block;
-		float: left;
+		float: none;
 		line-height: 35px;
+
+		&::before {
+			content: "Github:"
+		}
+
+		a {
+			float: right;
+		}
 
 		@include mobile {
 			display: inline-block;
