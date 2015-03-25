@@ -4,3 +4,6 @@
 [submodule "cli"]
 	path = cli
 	url = https://github.com/apla/cuwire.wiki
+[submodule "boards"]
+	path = boards
+	url = https://github.com/cuwire/pinout
