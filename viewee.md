@@ -16,7 +16,11 @@ some — not (I don't have an access to the eagle font). At current stage you wi
 definitely face problem with thru hole pad shapes. Kicad is tested on three `.kicad_pcb`
 files only and probably there is more problems than with eagle format.
 
-###Reference rendering in latest version
+###Limitations
+
+Currently only 2layer boards are supported.
+
+###Reference rendering in version 0.2.0
 
 ![eagle rendering]({{ site.baseurl }}/images/cuwire-viewee-quicklook-0.2.0-eagle.png)
 
@@ -25,7 +29,7 @@ files only and probably there is more problems than with eagle format.
 ###Mac OS X QuickLook plugin
 
 You can install preview version of ViewEE for Mac OS X by downloading QuickLook plugin
-from [releases page](https://github.com/cuwire/viewee/releases).
+from [releases page](https://github.com/cuwire/viewee.js/releases).
 
 Download, unarchive, copy `.qlgenerator` file to the `~/Library/QuickLook/` folder.
 
@@ -38,7 +42,7 @@ Download, unarchive, copy `.qlgenerator` file to the `~/Library/QuickLook/` fold
 
 ###Library
 
-Also you can use a javascript parser and renderer on your own page. Here is [an example](/viewee-source/) and [repository](https://github.com/cuwire/viewee/).
+Also you can use a javascript parser and renderer on your own page. Here is [an example](/viewee.js/) and [repository](https://github.com/cuwire/viewee.js).
 
 ##Thanks
 
