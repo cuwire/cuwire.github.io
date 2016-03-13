@@ -15,7 +15,7 @@ url: "http://cuwire.io"
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
 
-markdown: redcarpet
+markdown: kramdown
 highlighter: rouge
 #permalink: /:title/
 
@@ -58,7 +58,7 @@ sass:
 #  - jemoji # Emoji please!
 #  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
 
-include: [wiki]
+include: [viewee.js]
 
 # Exclude these files from your production _site
 exclude:
