@@ -16,7 +16,7 @@ url: "http://cuwire.io"
 # then add in the baseurl here, like this: "/repository-name"
 
 markdown: redcarpet
-highlighter: pygments
+highlighter: rouge
 #permalink: /:title/
 
 # The release of Jekyll Now that you're using
@@ -67,6 +67,9 @@ exclude:
     - LICENSE
     - README.md
     - vendor
+
+keep_files:
+    - viewee.js
 
 username: apla
 repo: https://github.com/cuwire/cuwire.github.io
