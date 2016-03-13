@@ -26,7 +26,7 @@ permalink: /viewee/preview/
 <script type="text/javascript" src="../../vieweejs/src/canvas_renderer.js"></script>
 <script type="text/javascript" src="../../vieweejs/src/svg_renderer.js"></script>
 
-<script type="text/javascript" src="../../vieweejs/src/vieweejs"></script>
+<script type="text/javascript" src="../../vieweejs/src/viewee.js"></script>
 
 <script type="text/javascript" src="../../vieweejs/src/interface.js"></script>
 
