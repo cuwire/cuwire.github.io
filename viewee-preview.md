@@ -8,29 +8,29 @@ permalink: /viewee/preview/
 
 ## Check it out for github repositories:
 
-<link rel="stylesheet" type="text/css" href="../../viewee.js/styles/font.css" />
-<link rel="stylesheet" type="text/css" href="../../viewee.js/styles/style.css" />
-<link rel="stylesheet" type="text/css" href="../../viewee.js/styles/browser.css" />
+<link rel="stylesheet" type="text/css" href="../../vieweejs/styles/font.css" />
+<link rel="stylesheet" type="text/css" href="../../vieweejs/styles/style.css" />
+<link rel="stylesheet" type="text/css" href="../../vieweejs/styles/browser.css" />
 
-<script type="text/javascript" src="../../viewee.js/lib/object-assign.js"></script>
-<script type="text/javascript" src="../../viewee.js/lib/minivents.js"></script>
-<script type="text/javascript" src="../../viewee.js/lib/htmlel.js"></script>
+<script type="text/javascript" src="../../vieweejs/lib/object-assign.js"></script>
+<script type="text/javascript" src="../../vieweejs/lib/minivents.js"></script>
+<script type="text/javascript" src="../../vieweejs/lib/htmlel.js"></script>
 
-<script type="text/javascript" src="../../viewee.js/lib/FontLoader.js"></script>
+<script type="text/javascript" src="../../vieweejs/lib/FontLoader.js"></script>
 
-<script type="text/javascript" src="../../viewee.js/src/eagle_xml_parser.js"></script>
-<script type="text/javascript" src="../../viewee.js/src/kicad_pcb_parser.js"></script>
-<script type="text/javascript" src="../../viewee.js/src/geda_parser.js"></script>
+<script type="text/javascript" src="../../vieweejs/src/eagle_xml_parser.js"></script>
+<script type="text/javascript" src="../../vieweejs/src/kicad_pcb_parser.js"></script>
+<script type="text/javascript" src="../../vieweejs/src/geda_parser.js"></script>
 
-<script type="text/javascript" src="../../viewee.js/src/renderer.js"></script>
-<script type="text/javascript" src="../../viewee.js/src/canvas_renderer.js"></script>
-<script type="text/javascript" src="../../viewee.js/src/svg_renderer.js"></script>
+<script type="text/javascript" src="../../vieweejs/src/renderer.js"></script>
+<script type="text/javascript" src="../../vieweejs/src/canvas_renderer.js"></script>
+<script type="text/javascript" src="../../vieweejs/src/svg_renderer.js"></script>
 
-<script type="text/javascript" src="../../viewee.js/src/viewee.js"></script>
+<script type="text/javascript" src="../../vieweejs/src/vieweejs"></script>
 
-<script type="text/javascript" src="../../viewee.js/src/interface.js"></script>
+<script type="text/javascript" src="../../vieweejs/src/interface.js"></script>
 
-<script type="text/javascript" src="../../viewee.js/src/browser.js"></script>
+<script type="text/javascript" src="../../vieweejs/src/browser.js"></script>
 
 <div style="font-family: vector; visibility: hidden; position: absolute; opacity: .01"> </div>
 <div class="viewee-wrapper">
