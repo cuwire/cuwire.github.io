@@ -7,6 +7,6 @@
 [submodule "boards"]
 	path = boards
 	url = https://github.com/cuwire/pinout
-[submodule "viewee.js"]
-	path = viewee.js
+[submodule "vieweejs"]
+	path = vieweejs
 	url = https://github.com/cuwire/viewee.js
