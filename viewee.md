@@ -6,21 +6,21 @@ permalink: /viewee/
 
 ---
 
-ViewEE is a software to view PCB layouts in various formats. Currently supported are Cadsoft Eagle .brd
-and Kicad .kicad_pcb formats.
+ViewEE is a software to view PCB layouts in various formats. Currently supported are Cadsoft Eagle `.brd`
+, Kicad `.kicad_pcb` and gEDA `.pcb` formats.
 
 ### Issues
 
 Parser and renderer are not ideal. Some problems can be fixed (pad, via shapes),
 some — not (I don't have an access to the eagle font). At current stage you will
-definitely face problem with thru hole pad shapes. Kicad is tested on three `.kicad_pcb`
-files only and probably there is more problems than with eagle format.
+definitely face problem with thru hole pad shapes, arcs, rotated elements and text.
+Eagle parser have best quality, Kicad renders ok and gEDA pcb parser is quite basic.
 
 ### Limitations
 
 Currently only 2layer boards are supported.
 
-### Reference rendering in version 0.2.0, [current version](/viewee/preview/)
+### Reference rendering in version 0.2.0, [current version](/viewee/preview/) is much better.
 
 ![eagle rendering]({{ site.baseurl }}/images/cuwire-viewee-quicklook-0.2.0-eagle.png)
 
@@ -42,7 +42,7 @@ Download, unarchive, copy `.qlgenerator` file to the `~/Library/QuickLook/` fold
 
 ### Library
 
-Also you can use a javascript parser and renderer on your own page. Here is [an example](/viewee.js/) and [repository](https://github.com/cuwire/viewee.js).
+Also you can use a javascript parser and renderer on your own page. Here is [an example](/viewee/preview/) and [repository](https://github.com/cuwire/viewee.js).
 
 ## Thanks
 
