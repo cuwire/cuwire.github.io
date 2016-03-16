@@ -8,6 +8,11 @@ permalink: /viewee/preview/
 
 ## Check it out for github repositories:
 
+Enter search term into search field below, try `uart` or `eagle` for example.
+Also you can search for boards in repository (use `user/repository` syntax)
+or paste github url directly into search field (try
+`https://github.com/MKesenheimer/QDC_MK1_Quadrocopter/blob/master/hardware/Schaltplan/Nanocopter.brd`).
+
 <link rel="stylesheet" type="text/css" href="../../vieweejs/styles/font.css" />
 <link rel="stylesheet" type="text/css" href="../../vieweejs/styles/style.css" />
 <link rel="stylesheet" type="text/css" href="../../vieweejs/styles/browser.css" />
